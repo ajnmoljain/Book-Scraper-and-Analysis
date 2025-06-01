@@ -1,0 +1,58 @@
+# 📚 Book Scraper and Analysis
+
+A Python-based project to scrape book data from the [Books to Scrape](http://books.toscrape.com/) website, followed by data cleaning, analysis, visualization, and a basic machine learning model to showcase real-world usage of scraped data.
+
+---
+
+## 🚀 Features
+
+- ✅ Web scraper to extract:
+  - Book **Title**
+  - **Price**
+  - **Rating**
+  - **Availability**
+- ✅ Multi-page scraping
+- ✅ Clean and structured dataset with **pandas**
+- ✅ Visualizations using **matplotlib**
+- ✅ Basic machine learning using **scikit-learn** to demonstrate predictive analytics
+
+---
+
+## 🔧 Technologies Used
+
+| Category              | Libraries/Tools                        |
+|-----------------------|----------------------------------------|
+| Web Scraping          | `requests`, `parsel`                   |
+| Data Handling         | `pandas`                               |
+| Data Visualization    | `matplotlib`                           |
+| Machine Learning      | `scikit-learn`                         |
+| Workflow & Notebook   | `Jupyter Notebook`                     |
+
+---
+
+## 📁 Project Structure
+
+
+---
+
+## 📊 Sample Insights
+
+- Average book prices by rating
+- Most common price ranges
+- Availability trends
+- Price prediction based on rating and availability
+
+---
+
+## 🤖 ML Component
+
+A basic regression model predicts book prices based on rating and availability. While simple, it demonstrates how scraped data can be applied to real ML tasks.
+
+---
+
+## 🛠️ Installation & Running
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ajnmoljain/Book-Scraper-and-Analysis.git
+   cd Book-Scraper-and-Analysis
